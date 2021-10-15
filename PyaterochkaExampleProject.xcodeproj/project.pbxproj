@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3F0D4DE2719A9650085FBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0D4DD2719A9650085FBAB /* AppDelegate.swift */; };
+		A3F0D4E02719A9650085FBAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0D4DF2719A9650085FBAB /* SceneDelegate.swift */; };
+		A3F0D4E22719A9650085FBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0D4E12719A9650085FBAB /* ViewController.swift */; };
+		A3F0D4E52719A9650085FBAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F0D4E32719A9650085FBAB /* Main.storyboard */; };
+		A3F0D4E82719A9650085FBAB /* PyaterochkaExampleProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3F0D4E62719A9650085FBAB /* PyaterochkaExampleProject.xcdatamodeld */; };
+		A3F0D4EA2719A9650085FBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F0D4E92719A9650085FBAB /* Assets.xcassets */; };
+		A3F0D4ED2719A9650085FBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F0D4EB2719A9650085FBAB /* LaunchScreen.storyboard */; };
+		A3F0D4F82719A9650085FBAB /* PyaterochkaExampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0D4F72719A9650085FBAB /* PyaterochkaExampleProjectTests.swift */; };
+		A3F0D5032719A9650085FBAB /* PyaterochkaExampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0D5022719A9650085FBAB /* PyaterochkaExampleProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3F0D4F42719A9650085FBAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F0D4D22719A9650085FBAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F0D4D92719A9650085FBAB;
+			remoteInfo = PyaterochkaExampleProject;
+		};
+		A3F0D4FF2719A9650085FBAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F0D4D22719A9650085FBAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F0D4D92719A9650085FBAB;
+			remoteInfo = PyaterochkaExampleProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3F0D4DA2719A9650085FBAB /* PyaterochkaExampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PyaterochkaExampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F0D4DD2719A9650085FBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3F0D4DF2719A9650085FBAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A3F0D4E12719A9650085FBAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3F0D4E42719A9650085FBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3F0D4E72719A9650085FBAB /* PyaterochkaExampleProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PyaterochkaExampleProject.xcdatamodel; sourceTree = "<group>"; };
+		A3F0D4E92719A9650085FBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3F0D4EC2719A9650085FBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3F0D4EE2719A9650085FBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F0D4F32719A9650085FBAB /* PyaterochkaExampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PyaterochkaExampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F0D4F72719A9650085FBAB /* PyaterochkaExampleProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyaterochkaExampleProjectTests.swift; sourceTree = "<group>"; };
+		A3F0D4F92719A9650085FBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F0D4FE2719A9650085FBAB /* PyaterochkaExampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PyaterochkaExampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F0D5022719A9650085FBAB /* PyaterochkaExampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyaterochkaExampleProjectUITests.swift; sourceTree = "<group>"; };
+		A3F0D5042719A9650085FBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F0D4D72719A9650085FBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F0D4F02719A9650085FBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F0D4FB2719A9650085FBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F0D4D12719A9650085FBAB = {
+			isa = PBXGroup;
+			children = (
+				A3F0D4DC2719A9650085FBAB /* PyaterochkaExampleProject */,
+				A3F0D4F62719A9650085FBAB /* PyaterochkaExampleProjectTests */,
+				A3F0D5012719A9650085FBAB /* PyaterochkaExampleProjectUITests */,
+				A3F0D4DB2719A9650085FBAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F0D4DB2719A9650085FBAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0D4DA2719A9650085FBAB /* PyaterochkaExampleProject.app */,
+				A3F0D4F32719A9650085FBAB /* PyaterochkaExampleProjectTests.xctest */,
+				A3F0D4FE2719A9650085FBAB /* PyaterochkaExampleProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F0D4DC2719A9650085FBAB /* PyaterochkaExampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0D4DD2719A9650085FBAB /* AppDelegate.swift */,
+				A3F0D4DF2719A9650085FBAB /* SceneDelegate.swift */,
+				A3F0D4E12719A9650085FBAB /* ViewController.swift */,
+				A3F0D4E32719A9650085FBAB /* Main.storyboard */,
+				A3F0D4E92719A9650085FBAB /* Assets.xcassets */,
+				A3F0D4EB2719A9650085FBAB /* LaunchScreen.storyboard */,
+				A3F0D4EE2719A9650085FBAB /* Info.plist */,
+				A3F0D4E62719A9650085FBAB /* PyaterochkaExampleProject.xcdatamodeld */,
+			);
+			path = PyaterochkaExampleProject;
+			sourceTree = "<group>";
+		};
+		A3F0D4F62719A9650085FBAB /* PyaterochkaExampleProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0D4F72719A9650085FBAB /* PyaterochkaExampleProjectTests.swift */,
+				A3F0D4F92719A9650085FBAB /* Info.plist */,
+			);
+			path = PyaterochkaExampleProjectTests;
+			sourceTree = "<group>";
+		};
+		A3F0D5012719A9650085FBAB /* PyaterochkaExampleProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0D5022719A9650085FBAB /* PyaterochkaExampleProjectUITests.swift */,
+				A3F0D5042719A9650085FBAB /* Info.plist */,
+			);
+			path = PyaterochkaExampleProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F0D4D92719A9650085FBAB /* PyaterochkaExampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F0D5072719A9650085FBAB /* Build configuration list for PBXNativeTarget "PyaterochkaExampleProject" */;
+			buildPhases = (
+				A3F0D4D62719A9650085FBAB /* Sources */,
+				A3F0D4D72719A9650085FBAB /* Frameworks */,
+				A3F0D4D82719A9650085FBAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PyaterochkaExampleProject;
+			productName = PyaterochkaExampleProject;
+			productReference = A3F0D4DA2719A9650085FBAB /* PyaterochkaExampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3F0D4F22719A9650085FBAB /* PyaterochkaExampleProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F0D50A2719A9650085FBAB /* Build configuration list for PBXNativeTarget "PyaterochkaExampleProjectTests" */;
+			buildPhases = (
+				A3F0D4EF2719A9650085FBAB /* Sources */,
+				A3F0D4F02719A9650085FBAB /* Frameworks */,
+				A3F0D4F12719A9650085FBAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F0D4F52719A9650085FBAB /* PBXTargetDependency */,
+			);
+			name = PyaterochkaExampleProjectTests;
+			productName = PyaterochkaExampleProjectTests;
+			productReference = A3F0D4F32719A9650085FBAB /* PyaterochkaExampleProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3F0D4FD2719A9650085FBAB /* PyaterochkaExampleProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F0D50D2719A9650085FBAB /* Build configuration list for PBXNativeTarget "PyaterochkaExampleProjectUITests" */;
+			buildPhases = (
+				A3F0D4FA2719A9650085FBAB /* Sources */,
+				A3F0D4FB2719A9650085FBAB /* Frameworks */,
+				A3F0D4FC2719A9650085FBAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F0D5002719A9650085FBAB /* PBXTargetDependency */,
+			);
+			name = PyaterochkaExampleProjectUITests;
+			productName = PyaterochkaExampleProjectUITests;
+			productReference = A3F0D4FE2719A9650085FBAB /* PyaterochkaExampleProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F0D4D22719A9650085FBAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A3F0D4D92719A9650085FBAB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A3F0D4F22719A9650085FBAB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A3F0D4D92719A9650085FBAB;
+					};
+					A3F0D4FD2719A9650085FBAB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A3F0D4D92719A9650085FBAB;
+					};
+				};
+			};
+			buildConfigurationList = A3F0D4D52719A9650085FBAB /* Build configuration list for PBXProject "PyaterochkaExampleProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3F0D4D12719A9650085FBAB;
+			productRefGroup = A3F0D4DB2719A9650085FBAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F0D4D92719A9650085FBAB /* PyaterochkaExampleProject */,
+				A3F0D4F22719A9650085FBAB /* PyaterochkaExampleProjectTests */,
+				A3F0D4FD2719A9650085FBAB /* PyaterochkaExampleProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F0D4D82719A9650085FBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F0D4ED2719A9650085FBAB /* LaunchScreen.storyboard in Resources */,
+				A3F0D4EA2719A9650085FBAB /* Assets.xcassets in Resources */,
+				A3F0D4E52719A9650085FBAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F0D4F12719A9650085FBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F0D4FC2719A9650085FBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F0D4D62719A9650085FBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F0D4E82719A9650085FBAB /* PyaterochkaExampleProject.xcdatamodeld in Sources */,
+				A3F0D4E22719A9650085FBAB /* ViewController.swift in Sources */,
+				A3F0D4DE2719A9650085FBAB /* AppDelegate.swift in Sources */,
+				A3F0D4E02719A9650085FBAB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F0D4EF2719A9650085FBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F0D4F82719A9650085FBAB /* PyaterochkaExampleProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F0D4FA2719A9650085FBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F0D5032719A9650085FBAB /* PyaterochkaExampleProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3F0D4F52719A9650085FBAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F0D4D92719A9650085FBAB /* PyaterochkaExampleProject */;
+			targetProxy = A3F0D4F42719A9650085FBAB /* PBXContainerItemProxy */;
+		};
+		A3F0D5002719A9650085FBAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F0D4D92719A9650085FBAB /* PyaterochkaExampleProject */;
+			targetProxy = A3F0D4FF2719A9650085FBAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3F0D4E32719A9650085FBAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F0D4E42719A9650085FBAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3F0D4EB2719A9650085FBAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F0D4EC2719A9650085FBAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3F0D5052719A9650085FBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3F0D5062719A9650085FBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F0D5082719A9650085FBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PyaterochkaExampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.PyaterochkaExampleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3F0D5092719A9650085FBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PyaterochkaExampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.PyaterochkaExampleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3F0D50B2719A9650085FBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PyaterochkaExampleProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.PyaterochkaExampleProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PyaterochkaExampleProject.app/PyaterochkaExampleProject";
+			};
+			name = Debug;
+		};
+		A3F0D50C2719A9650085FBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PyaterochkaExampleProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.PyaterochkaExampleProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PyaterochkaExampleProject.app/PyaterochkaExampleProject";
+			};
+			name = Release;
+		};
+		A3F0D50E2719A9650085FBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PyaterochkaExampleProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.PyaterochkaExampleProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PyaterochkaExampleProject;
+			};
+			name = Debug;
+		};
+		A3F0D50F2719A9650085FBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PyaterochkaExampleProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.PyaterochkaExampleProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PyaterochkaExampleProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F0D4D52719A9650085FBAB /* Build configuration list for PBXProject "PyaterochkaExampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F0D5052719A9650085FBAB /* Debug */,
+				A3F0D5062719A9650085FBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F0D5072719A9650085FBAB /* Build configuration list for PBXNativeTarget "PyaterochkaExampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F0D5082719A9650085FBAB /* Debug */,
+				A3F0D5092719A9650085FBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F0D50A2719A9650085FBAB /* Build configuration list for PBXNativeTarget "PyaterochkaExampleProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F0D50B2719A9650085FBAB /* Debug */,
+				A3F0D50C2719A9650085FBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F0D50D2719A9650085FBAB /* Build configuration list for PBXNativeTarget "PyaterochkaExampleProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F0D50E2719A9650085FBAB /* Debug */,
+				A3F0D50F2719A9650085FBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3F0D4E62719A9650085FBAB /* PyaterochkaExampleProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3F0D4E72719A9650085FBAB /* PyaterochkaExampleProject.xcdatamodel */,
+			);
+			currentVersion = A3F0D4E72719A9650085FBAB /* PyaterochkaExampleProject.xcdatamodel */;
+			path = PyaterochkaExampleProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A3F0D4D22719A9650085FBAB /* Project object */;
+}
