@@ -15,6 +15,7 @@
 		A3F0D4ED2719A9650085FBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F0D4EB2719A9650085FBAB /* LaunchScreen.storyboard */; };
 		A3F0D4F82719A9650085FBAB /* PyaterochkaExampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0D4F72719A9650085FBAB /* PyaterochkaExampleProjectTests.swift */; };
 		A3F0D5032719A9650085FBAB /* PyaterochkaExampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0D5022719A9650085FBAB /* PyaterochkaExampleProjectUITests.swift */; };
+		A3F0D5192719AF6D0085FBAB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F0D5182719AF6D0085FBAB /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A3F0D4FE2719A9650085FBAB /* PyaterochkaExampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PyaterochkaExampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F0D5022719A9650085FBAB /* PyaterochkaExampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyaterochkaExampleProjectUITests.swift; sourceTree = "<group>"; };
 		A3F0D5042719A9650085FBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F0D5182719AF6D0085FBAB /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,9 +173,18 @@
 		A3F0D5162719AC5F0085FBAB /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				A3F0D5172719AF310085FBAB /* MainController */,
 				A3F0D4E12719A9650085FBAB /* ViewController.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A3F0D5172719AF310085FBAB /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				A3F0D5182719AF6D0085FBAB /* MainTabBarController.swift */,
+			);
+			path = MainController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +318,7 @@
 			files = (
 				A3F0D4E82719A9650085FBAB /* PyaterochkaExampleProject.xcdatamodeld in Sources */,
 				A3F0D4E22719A9650085FBAB /* ViewController.swift in Sources */,
+				A3F0D5192719AF6D0085FBAB /* MainTabBarController.swift in Sources */,
 				A3F0D4DE2719A9650085FBAB /* AppDelegate.swift in Sources */,
 				A3F0D4E02719A9650085FBAB /* SceneDelegate.swift in Sources */,
 			);
